@@ -1,0 +1,65 @@
+//EXERCICIO DE INTERPRETAÇÃO----------------------------
+
+//1-Criando um loop e botando uma condição ( if i > 5) o lop acaba./ o valor empresso sera "5"
+
+//2-
+
+//a) vai printar todos numero que tem um valor menor a 18
+
+//3-
+
+//a)sera impresso no console isso =
+//*
+//** 
+//*** 
+//**** 
+
+//EXERCICIO DE ESCRITA---------------------------------
+
+//1-
+
+//let bichosdeestimação = Number(prompt("quantos bichinhos de estimação voce tem?"))
+//if(bichosdeestimação === 0 ){
+  //console.log()
+//}else{
+  //let nomesDosBichos = [];
+  //for (let i = 0; i < bichosdeestimação; i++) {
+    //nomesDosBichos[i] = prompt("nome do bicho");
+  //}
+//}
+//console.log(nomesDosBichos);
+
+//2-
+
+let arrayoriginal = [1, 2, 3, 4, 5, 6, 7 ,8, 9, 10, 11, 12, 13, 14, 15]
+
+function imprimir(arrayoriginal) {
+  for (const elemento of arrayoriginal) {
+    console.log(elemento);
+  }}
+
+  
+function divididopordez(arrayoriginal) {
+  for (const elemento of arrayoriginal) {
+    console.log(elemento /10);
+  }
+}
+
+function pares(arrayoriginal) {
+  for (const valorofarray of arrayoriginal) {
+    if (valorofarray %2 === 0) {
+      console.log(valorofarray)    }
+  }
+    
+  }
+
+
+function strings(arrayoriginal) {
+  let novoArray = [];
+  for (let i = 0; i < arrayoriginal; i++) {
+    const element = array[i];
+    novoArray[i] = `O elemento do índex ${i} é: ${arrayoriginal[i]}`;
+  }  
+}
+
+
